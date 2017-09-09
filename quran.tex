@@ -1,0 +1,41 @@
+\documentclass[a5paper]{book}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage[a5paper,top=0cm,bottom=0cm,left=0cm,right=0cm,marginparwidth=0cm]{geometry}
+
+%% Useful packages
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+\title{Quran for Kindle}
+\author{Allah Almighty through Angel Gabriel through Prophet Muhammad}
+\date{}
+
+\makeatletter
+\titleformat{\section}[runin]{}{}{0pt}{\@gobble}
+\titleformat{\subsection}[runin]{}{}{0pt}{\@gobble}
+\makeatother
+\titlespacing{\section}{\parindent}{0pt}{0pt}
+\titlespacing{\subsection}{\parindent}{0pt}{0pt}
+
+\begin{document}
+
+\frontmatter
+
+{\let\cleardoublepage\clearpage 
+\maketitle
+\tableofcontents
+}
+
+\mainmatter
+
+\input{pages.tex}
+
+\end{document}
