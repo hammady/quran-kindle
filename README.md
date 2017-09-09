@@ -4,8 +4,8 @@ Generated PDFs include Table of Contents (by part number) and no borders.
 
 ## Getting Quran page images
 
-    Generate Quran page images using [quran.com-images](https://github.com/quran/quran.com-images).
-    After generation copy the output folder to this project root directory.
+Generate Quran page images using [quran.com-images](https://github.com/quran/quran.com-images).
+After generation copy the output folder to this project root directory.
 
 ## Docker installation
 
